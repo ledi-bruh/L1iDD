@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct GreetingView: View {
-    var username: String
     var message: String
+    var username: String
     
     var body: some View {
         Spacer(minLength: SpaceView.greetingSpacer)

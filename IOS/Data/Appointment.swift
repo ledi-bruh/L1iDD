@@ -1,7 +1,7 @@
 import Foundation
 
 struct Appointment: Identifiable {
-    var id = UUID()
+    let id = UUID()
     var doctor: Doctor
     var date: String
     var appointment_time: String
@@ -18,7 +18,7 @@ extension Appointment {
             appointment_time: "11:00 - 12:00 AM",
             rating: "4.8 (120 Reviews)",
             open_time: "Open at 17.00",
-            distance: "1.2 KM",
+            distance: "1.2 KM"
         ),
         Appointment(
             doctor: Doctor.doctor1,
@@ -26,7 +26,7 @@ extension Appointment {
             appointment_time: "11:00 - 12:00 AM",
             rating: "4.8 (130 Reviews)",
             open_time: "Open at 16.00",
-            distance: "1.2 KM",
+            distance: "1.2 KM"
         )
     ]
 }
